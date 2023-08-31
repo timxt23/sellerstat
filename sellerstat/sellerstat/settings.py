@@ -28,6 +28,12 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+CURRENCIES_CBR = {
+    'USD': 'R01235',
+    'CNY': 'R01375',
+    'TRY': 'R01700J'
+}
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,6 +49,8 @@ INSTALLED_APPS = [
     'djoser',
     'corsheaders',
     'users',
+    'ya_market',
+    'django_cron'
 ]
 
 MIDDLEWARE = [
@@ -144,6 +152,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated'
     ],
 }
+
 DJOSER = {
     'LOGIN_FIELD': 'username',
     'HIDE_USERS': True,
@@ -155,3 +164,7 @@ DJOSER = {
         'user_list': ['rest_framework.permissions.IsAuthenticatedOrReadOnly'],
     },
 }
+
+CRON_CLASSES = [
+    "ya_market.cron.tasks.UpdateCurrencyRates",
+]

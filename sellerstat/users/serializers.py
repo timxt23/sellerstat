@@ -53,15 +53,18 @@ class UserYaKeysSerializer(serializers.ModelSerializer):
     FBY_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
     FBS_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
     DBS_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
+    business_id = serializers.CharField(max_length=8, min_length=8, required=False)
     class Meta:
         model = UserYaKeys
         fields = '__all__'
 
     def validate(self, data):
+        """Проверяет юзера - собственника и привязку магазина"""
         user = self.context['request'].user
+        method = self.context['request'].method
         existing_shop = UserYaKeys.objects.filter(user=user)
 
-        if existing_shop:
+        if (method == 'POST') and existing_shop:
             raise serializers.ValidationError("Можно привязать не более 1-го магазина")
         return data
 
@@ -69,6 +72,11 @@ class UserYaKeysSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         validated_data['user'] = self.context['request'].user
         return super().create(validated_data)
+
+    @transaction.atomic
+    def update(self, instance, validated_data):
+        validated_data['user'] = self.context['request'].user
+        return super().update(instance, validated_data)
 
 
 class SubscriptionSerializer(serializers.ModelSerializer):

@@ -90,6 +90,11 @@ class UserYaKeys(models.Model):
         max_length=100,
         verbose_name='OAuth токен Яндекса'
     )
+    business_id = models.CharField(
+        max_length=8,
+        verbose_name='BusinessId кабинета',
+        blank=True
+    )
 
     class Meta:
         verbose_name = 'Яндекс ключи пользователя'
