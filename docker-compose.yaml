@@ -1,0 +1,50 @@
+version: "3.10"
+services:
+
+  db:
+    container_name: db
+    image: postgres:13-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - ./.env
+
+  backend:
+    container_name: backend
+    build:
+      context: ./sellerstat
+      dockerfile: Dockerfile
+    volumes:
+      - ./sellerstat:/app
+      - static_value:/app/static/
+      - media_value:/app/media/
+      - redoc:/app/docs/
+    depends_on:
+      - db
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - "8000:8000"
+
+  redis:
+    image: redis
+    restart: always
+
+  worker:
+    restart: always
+    build:
+      context: ./sellerstat
+    volumes:
+      - ./sellerstat:/app
+    command: celery -A sellerstat worker -l INFO
+
+volumes:
+  postgres_data:
+  static_value:
+  media_value:
+  redoc:
+
+
+
+

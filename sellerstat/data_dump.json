@@ -1,0 +1,1789 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-07-31T17:55:19.958Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "План Аналитика 30 дней на 30 за 700р.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-08-01T09:56:52.726Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "План Юнит-экономика 30 на 30 за 1200р.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-08-01T12:04:55.237Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:04:55.234759+00:00 до None.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0434\\u043f\\u0438\\u0441\\u0447\\u0438\\u043a \\u043d\\u0430 \\u043f\\u043b\\u0430\\u043d\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-08-01T12:06:59.482Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:04:55.234759+00:00 до None.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-08-01T12:12:05.267Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:10:45.891735+00:00 до None.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-08-01T12:12:05.276Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя admin с 2023-08-01 12:07:32.896574+00:00 до None.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-08-01T12:12:05.278Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя admin с 2023-08-01 12:07:15.942208+00:00 до None.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-08-01T12:47:14.030Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:46:47.334175+00:00 до 2023-08-31 12:46:47.333236+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-08-01T12:48:38.559Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:47:54.550866+00:00 до 2023-08-31 12:47:54.550594+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-08-01T12:56:04.596Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "Подписка - План Аналитика 30 дней на 30 за 700р. пользователя Ivan123 с 2023-08-01 12:55:38.707405+00:00 до 2023-08-31 12:55:38.706878+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-08-26T14:04:49.994Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "План Юнит-экономика 30 дней на 30 за 1200р.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-08-30T12:35:09.051Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "ya_market.update_currency (Fail)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-08-30T12:35:19.424Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "ya_market.update_currency (Fail)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-08-30T12:39:32.362Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "3",
+      "object_repr": "ya_market.update_currency (Fail)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-08-30T12:39:32.370Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "ya_market.update_currency (Fail)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-08-30T13:05:03.214Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "4",
+      "object_repr": "ya_market.update_currency (Success)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-08-30T13:21:39.471Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "3",
+      "object_repr": "Валюта - TRY, Курс - 36.05 от 2023-08-30 12:42:20.409125+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-08-30T13:21:39.479Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "2",
+      "object_repr": "Валюта - CNY, Курс - 13.11 от 2023-08-30 12:42:20.407398+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-08-30T13:21:39.480Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Валюта - USD, Курс - 95.71 от 2023-08-30 12:42:20.398677+00:00.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-08-30T13:22:41.294Z",
+      "user": 1,
+      "content_type": 18,
+      "object_id": "1",
+      "object_repr": "Себестоимость товара SKU - 0001L - Леггинсы спортивные пушап Лосины Тайтсы для фитнеса пользователя Ivan123",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Token",
+      "content_type": 7,
+      "codename": "add_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Token",
+      "content_type": 7,
+      "codename": "change_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Token",
+      "content_type": 7,
+      "codename": "delete_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Token",
+      "content_type": 7,
+      "codename": "view_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add token",
+      "content_type": 8,
+      "codename": "add_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change token",
+      "content_type": 8,
+      "codename": "change_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete token",
+      "content_type": 8,
+      "codename": "delete_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view token",
+      "content_type": 8,
+      "codename": "view_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add План подписки",
+      "content_type": 9,
+      "codename": "add_subscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change План подписки",
+      "content_type": 9,
+      "codename": "change_subscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete План подписки",
+      "content_type": 9,
+      "codename": "delete_subscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view План подписки",
+      "content_type": 9,
+      "codename": "view_subscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Яндекс ключи пользователя",
+      "content_type": 10,
+      "codename": "add_useryakeys"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Яндекс ключи пользователя",
+      "content_type": 10,
+      "codename": "change_useryakeys"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Яндекс ключи пользователя",
+      "content_type": 10,
+      "codename": "delete_useryakeys"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Яндекс ключи пользователя",
+      "content_type": 10,
+      "codename": "view_useryakeys"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add План подписки пользователя",
+      "content_type": 11,
+      "codename": "add_subscripteduser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change План подписки пользователя",
+      "content_type": 11,
+      "codename": "change_subscripteduser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete План подписки пользователя",
+      "content_type": 11,
+      "codename": "delete_subscripteduser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view План подписки пользователя",
+      "content_type": 11,
+      "codename": "view_subscripteduser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Товар пользователя",
+      "content_type": 12,
+      "codename": "add_goods"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Товар пользователя",
+      "content_type": 12,
+      "codename": "change_goods"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Товар пользователя",
+      "content_type": 12,
+      "codename": "delete_goods"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Товар пользователя",
+      "content_type": 12,
+      "codename": "view_goods"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Цена товара",
+      "content_type": 13,
+      "codename": "add_pricesfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Цена товара",
+      "content_type": 13,
+      "codename": "change_pricesfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Цена товара",
+      "content_type": 13,
+      "codename": "delete_pricesfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Цена товара",
+      "content_type": 13,
+      "codename": "view_pricesfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add Остаток товара и тарифы",
+      "content_type": 14,
+      "codename": "add_stocksfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change Остаток товара и тарифы",
+      "content_type": 14,
+      "codename": "change_stocksfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete Остаток товара и тарифы",
+      "content_type": 14,
+      "codename": "delete_stocksfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view Остаток товара и тарифы",
+      "content_type": 14,
+      "codename": "view_stocksfby"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add cron job log",
+      "content_type": 15,
+      "codename": "add_cronjoblog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change cron job log",
+      "content_type": 15,
+      "codename": "change_cronjoblog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete cron job log",
+      "content_type": 15,
+      "codename": "delete_cronjoblog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view cron job log",
+      "content_type": 15,
+      "codename": "view_cronjoblog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add cron job lock",
+      "content_type": 16,
+      "codename": "add_cronjoblock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change cron job lock",
+      "content_type": 16,
+      "codename": "change_cronjoblock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete cron job lock",
+      "content_type": 16,
+      "codename": "delete_cronjoblock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view cron job lock",
+      "content_type": 16,
+      "codename": "view_cronjoblock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add Курс валюты",
+      "content_type": 17,
+      "codename": "add_currency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change Курс валюты",
+      "content_type": 17,
+      "codename": "change_currency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete Курс валюты",
+      "content_type": 17,
+      "codename": "delete_currency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view Курс валюты",
+      "content_type": 17,
+      "codename": "view_currency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add Себестоимость товара",
+      "content_type": 18,
+      "codename": "add_usercostprice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change Себестоимость товара",
+      "content_type": 18,
+      "codename": "change_usercostprice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete Себестоимость товара",
+      "content_type": 18,
+      "codename": "delete_usercostprice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view Себестоимость товара",
+      "content_type": 18,
+      "codename": "view_usercostprice"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$bU0DdHmG5QbrHeufkpqMQM$b/LIvTQoDVFp90YCAenM/SVCR2j0B3g1kNu9esmQjWE=",
+      "last_login": "2023-08-26T14:03:03.912Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-07-29T15:57:19.759Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$ZQsSxqLZkbr0Jze4EByjVU$/QEKQxBk1qZ5rvumMr6h2kf0jUZlwnfmpwgKmVn7kZI=",
+      "last_login": "2023-07-29T16:43:13.105Z",
+      "is_superuser": false,
+      "username": "Ivan123",
+      "first_name": "",
+      "last_name": "",
+      "email": "ivan@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-29T16:34:21.456Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "token"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "tokenproxy"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "users",
+      "model": "subscription"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "useryakeys"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "users",
+      "model": "subscripteduser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "ya_market",
+      "model": "goods"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "ya_market",
+      "model": "pricesfby"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "ya_market",
+      "model": "stocksfby"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "django_cron",
+      "model": "cronjoblog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "django_cron",
+      "model": "cronjoblock"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "ya_market",
+      "model": "currency"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "ya_market",
+      "model": "usercostprice"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "isxkk340xzyxgc0ad9caqboyx5gs6hmv",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pAOFCgu3XsGMjCMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hJnEWIE6_W8T0yHUHdMd6azK1ui5zlLsiD9rltVF-Xg7376BgL98aiRJMk7EWvAansnJ-IKtcTFkzKxzZgLLeGGZI0YEeQWuvLEXOg0vi_QHQ8Td3:1qZtsV:bRD4AeA9pfpY5lyDxb5fCQMHochCsE8zOEhxpgc3NLo",
+      "expire_date": "2023-09-09T14:03:03.915Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wjrc9jj5wguzf4lwhfo0kvjvqg8w47js",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pAOFCgu3XsGMjCMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hJnEWIE6_W8T0yHUHdMd6azK1ui5zlLsiD9rltVF-Xg7376BgL98aiRJMk7EWvAansnJ-IKtcTFkzKxzZgLLeGGZI0YEeQWuvLEXOg0vi_QHQ8Td3:1qPmWh:TsreXnAYrvWwpMAlEcDmI9dkA3FM1ZvltvBWyIyIk28",
+      "expire_date": "2023-08-12T16:10:43.412Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "7da0330f3ec0b674e82ae6e1d7bbc05420f79bd2",
+    "fields": {
+      "user": 2,
+      "created": "2023-07-29T16:42:52.375Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "bcd4ed8c5b43fea01bae6504d1b265adeef06e5e",
+    "fields": {
+      "user": 1,
+      "created": "2023-07-29T16:26:21.994Z"
+    }
+  },
+  {
+    "model": "users.subscription",
+    "pk": 1,
+    "fields": {
+      "title": "Аналитика 30 дней",
+      "price": 700,
+      "days_amount": 30
+    }
+  },
+  {
+    "model": "users.subscription",
+    "pk": 2,
+    "fields": {
+      "title": "Юнит-экономика 30 дней",
+      "price": 1200,
+      "days_amount": 30
+    }
+  },
+  {
+    "model": "users.subscripteduser",
+    "pk": 7,
+    "fields": {
+      "subscription_plan": 1,
+      "user": 2,
+      "start_date": "2023-08-01T13:15:44.981Z",
+      "expire_date": "2023-08-31T12:35:49.612Z"
+    }
+  },
+  {
+    "model": "users.subscripteduser",
+    "pk": 11,
+    "fields": {
+      "subscription_plan": 1,
+      "user": 1,
+      "start_date": "2023-08-01T13:13:56.246Z",
+      "expire_date": "2023-08-31T13:13:56.236Z"
+    }
+  },
+  {
+    "model": "users.useryakeys",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "FBY_campaign_id": 58157088,
+      "FBS_campaign_id": null,
+      "DBS_campaign_id": null,
+      "ya_oauth_token": "y0_AgAAAABj2d1NAAowIQAAAADn1jWaqJR95xZAQJWVU163GwYwcJVT_N0",
+      "business_id": "61332384"
+    }
+  },
+  {
+    "model": "users.useryakeys",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "FBY_campaign_id": 58157088,
+      "FBS_campaign_id": null,
+      "DBS_campaign_id": null,
+      "ya_oauth_token": "y0_AgAAAABj2d1NAAowIQAAAADn1jWaqJR95xZAQJWVU163GwYwcJVT_N1",
+      "business_id": "61332384"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 14,
+    "fields": {
+      "user": 2,
+      "sku": "0001L",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032783136980"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "sku": "0001M",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032783136930"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 16,
+    "fields": {
+      "user": 2,
+      "sku": "0001S",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032783136830"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 17,
+    "fields": {
+      "user": 2,
+      "sku": "0002L",
+      "title": "Леггинсы TD Wear L серый",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032784618534"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 18,
+    "fields": {
+      "user": 2,
+      "sku": "0002M",
+      "title": "Леггинсы TD Wear M серый",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032784618466"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 19,
+    "fields": {
+      "user": 2,
+      "sku": "0002S",
+      "title": "Леггинсы TD Wear S серый",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "5032783140480"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 20,
+    "fields": {
+      "user": 2,
+      "sku": "0003L",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "2036764858289"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 21,
+    "fields": {
+      "user": 2,
+      "sku": "0003M",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "2036764858272"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 22,
+    "fields": {
+      "user": 2,
+      "sku": "0003S",
+      "title": "Леггинсы спортивные пушап Лосины Тайтсы для фитнеса",
+      "category": "Леггинсы",
+      "vendor": "TD Wear",
+      "barcode": "2036764858265"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 23,
+    "fields": {
+      "user": 2,
+      "sku": "LD-001",
+      "title": "Боковые габаритные led огни 4 штуки, для грузовика, прицепа, фургона, еврофуры, автофургона, большегруза светодиодные 12-24в",
+      "category": "Запчасти",
+      "vendor": "АвтоТренд",
+      "barcode": "2038164464473"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 24,
+    "fields": {
+      "user": 2,
+      "sku": "TL-001",
+      "title": "Фильтр масляный TOYOTA, Lexus 04152-YZZA6",
+      "category": "Запчасти",
+      "vendor": "Toyota",
+      "barcode": "2037431406055"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 25,
+    "fields": {
+      "user": 2,
+      "sku": "TL-002",
+      "title": "Фильтр угольный салона Camry Rav4 LC200 87139YZZ16",
+      "category": "Запчасти",
+      "vendor": "Toyota",
+      "barcode": "2037431493772"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 26,
+    "fields": {
+      "user": 2,
+      "sku": "TL-003",
+      "title": "Фильтр салонный уголь Toyota 87139YZZ34 для Hilux VIII, Toyota Prius, Lexus RX",
+      "category": null,
+      "vendor": "TOYOTA",
+      "barcode": "2038175626044"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 27,
+    "fields": {
+      "user": 2,
+      "sku": "VW-001",
+      "title": "Фильтр Воздушный VW, Skoda VAG04E129620A",
+      "category": "Запчасти",
+      "vendor": "Volkswagen",
+      "barcode": "2037430628946"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 28,
+    "fields": {
+      "user": 2,
+      "sku": "VW-002",
+      "title": "Фильтр масляный VW, SKODA, AUDI 06L115562B",
+      "category": "Запчасти",
+      "vendor": "volkswagen",
+      "barcode": "2037431364850"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 29,
+    "fields": {
+      "user": 2,
+      "sku": "VW-003",
+      "title": "Салонный фильтр угольный Polo Fabia JZW819653F VW AUDI SKODA",
+      "category": "Запчасти",
+      "vendor": "volkswagen",
+      "barcode": "2037431459228"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 30,
+    "fields": {
+      "user": 2,
+      "sku": "ZH-001",
+      "title": "Воздушный фильтр Hyundai, KIA 28113H8100",
+      "category": "Запчасти",
+      "vendor": "Hyundai",
+      "barcode": "2037430787193"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 31,
+    "fields": {
+      "user": 2,
+      "sku": "ZH-002",
+      "title": "Фильтр воздушный HYUNDAI, KIA 281131R100 Solaris Rio",
+      "category": "Запчасти",
+      "vendor": "Hyundai",
+      "barcode": "2037431437264"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 32,
+    "fields": {
+      "user": 2,
+      "sku": "ZH-003",
+      "title": "Угольный фильтр салонный Hyundai Kia 971332E210 ",
+      "category": "Запчасти",
+      "vendor": "Hyundai",
+      "barcode": "2037436813421"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 33,
+    "fields": {
+      "user": 2,
+      "sku": "ЗТ-001",
+      "title": "Воздушный фильтр Toyota Lexus 17801-0D060, 178010D060",
+      "category": "Запчасти",
+      "vendor": "Toyota",
+      "barcode": "2037430575929"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 34,
+    "fields": {
+      "user": 2,
+      "sku": "П009",
+      "title": "Стиральный порошок автомат для цветного и белого 9 кг",
+      "category": "Стиральные порошки",
+      "vendor": "OXO - Турецкий стиральный порошок",
+      "barcode": "2037334459974"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 35,
+    "fields": {
+      "user": 2,
+      "sku": "Т001",
+      "title": "открытки любимому",
+      "category": "Открытки",
+      "vendor": "TAN.K",
+      "barcode": "2037260397029"
+    }
+  },
+  {
+    "model": "ya_market.goods",
+    "pk": 36,
+    "fields": {
+      "user": 2,
+      "sku": "Т002",
+      "title": "Мини открытки поздравляю",
+      "category": "Открытки",
+      "vendor": "TAN.K",
+      "barcode": "2037502041499"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "good_id": 23,
+      "price_value": 690,
+      "price_base": 950,
+      "updated": "2023-07-15T17:34:06Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "good_id": 24,
+      "price_value": 390,
+      "price_base": 850,
+      "updated": "2023-05-04T16:19:56Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "good_id": 25,
+      "price_value": 480,
+      "price_base": 1090,
+      "updated": "2023-08-06T04:57:29Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "good_id": 27,
+      "price_value": 430,
+      "price_base": 945,
+      "updated": "2023-07-24T14:55:40Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "good_id": 28,
+      "price_value": 445,
+      "price_base": 750,
+      "updated": "2023-07-22T09:01:53Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "good_id": 29,
+      "price_value": 470,
+      "price_base": 870,
+      "updated": "2023-05-23T12:20:14Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 9,
+    "fields": {
+      "user": 2,
+      "good_id": 30,
+      "price_value": 488,
+      "price_base": 980,
+      "updated": "2023-05-04T16:20:06Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "good_id": 31,
+      "price_value": 528,
+      "price_base": 968,
+      "updated": "2023-05-02T11:38:07Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "good_id": 32,
+      "price_value": 515,
+      "price_base": 833,
+      "updated": "2023-05-24T09:09:02Z"
+    }
+  },
+  {
+    "model": "ya_market.pricesfby",
+    "pk": 12,
+    "fields": {
+      "user": 2,
+      "good_id": 33,
+      "price_value": 420,
+      "price_base": 734,
+      "updated": "2023-07-24T14:57:12Z"
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "good_id": 23,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 82.8,
+      "fulfillment": 20.7,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "good_id": 24,
+      "all_good_stocks": 1,
+      "agency_commission": 0.12,
+      "fee": 46.8,
+      "fulfillment": 11.7,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "good_id": 25,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 57.6,
+      "fulfillment": 14.4,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "good_id": 26,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 61.2,
+      "fulfillment": 15.3,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "good_id": 27,
+      "all_good_stocks": 1,
+      "agency_commission": 0.12,
+      "fee": 51.6,
+      "fulfillment": 12.9,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "good_id": 28,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 53.4,
+      "fulfillment": 13.35,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "good_id": 29,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 56.4,
+      "fulfillment": 14.1,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "good_id": 30,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 58.56,
+      "fulfillment": 14.64,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 9,
+    "fields": {
+      "user": 2,
+      "good_id": 31,
+      "all_good_stocks": 4,
+      "agency_commission": 0.12,
+      "fee": 63.36,
+      "fulfillment": 15.84,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "good_id": 32,
+      "all_good_stocks": 7,
+      "agency_commission": 0.12,
+      "fee": 61.8,
+      "fulfillment": 15.45,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.stocksfby",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "good_id": 33,
+      "all_good_stocks": 0,
+      "agency_commission": 0.12,
+      "fee": 50.4,
+      "fulfillment": 12.6,
+      "storage": 0.02,
+      "withdraw": 36.0,
+      "surplus": 150.0
+    }
+  },
+  {
+    "model": "ya_market.currency",
+    "pk": 4,
+    "fields": {
+      "code": "USD",
+      "date": "2023-08-30T13:05:59.862Z",
+      "value": 95.71
+    }
+  },
+  {
+    "model": "ya_market.currency",
+    "pk": 5,
+    "fields": {
+      "code": "CNY",
+      "date": "2023-08-30T13:05:59.873Z",
+      "value": 13.11
+    }
+  },
+  {
+    "model": "ya_market.currency",
+    "pk": 6,
+    "fields": {
+      "code": "TRY",
+      "date": "2023-08-30T13:05:59.876Z",
+      "value": 36.05
+    }
+  },
+  {
+    "model": "ya_market.usercostprice",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "good_id": 14,
+      "buy_price": 490.0,
+      "buy_currency": 5,
+      "buy_currency_rate": 13.11,
+      "delivery_price": 99.0,
+      "delivery_currency": 4,
+      "delivery_currency_rate": 95.0,
+      "fulfilment_price": 55.0
+    }
+  },
+  {
+    "model": "django_cron.cronjoblog",
+    "pk": 5,
+    "fields": {
+      "code": "ya_market.update_currency",
+      "start_time": "2023-08-30T13:05:59.648Z",
+      "end_time": "2023-08-30T13:05:59.879Z",
+      "is_success": true,
+      "message": "",
+      "ran_at_time": "13:00:00"
+    }
+  }
+]

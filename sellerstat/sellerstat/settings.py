@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'ya_market',
-    'django_cron'
+    'django_celery_results',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -94,7 +95,7 @@ DATABASES = {
         'NAME': 'sellerstat',
         'USER': 'sellerstat',
         'PASSWORD': '546939',
-        'HOST': '127.0.0.1',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
@@ -168,3 +169,6 @@ DJOSER = {
 CRON_CLASSES = [
     "ya_market.cron.tasks.UpdateCurrencyRates",
 ]
+
+CELERY_BROKER_URL = 'redis://redis:6379'
+CELERY_RESULT_BACKEND = 'django-db'

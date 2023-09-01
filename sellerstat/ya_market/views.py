@@ -80,9 +80,7 @@ class GetPricesFBYViewSet(viewsets.ModelViewSet):
             request_skus = Goods.objects.filter(user=user_id)
             sku_list = list(request_skus.values_list('sku', flat=True))
             id_list = list(request_skus.values_list('id', flat=True))
-            print(id_list)
             result = request_json_prices(oauth=oauth, campaign_id=campaign_id, skus=sku_list)
-            print(result)
             price_to_create = []
 
             for data in result:
@@ -136,7 +134,6 @@ class GetStocksFBYViewSet(viewsets.ModelViewSet):
 
             request_skus = Goods.objects.filter(user=user_id).select_related('user')
             sku_to_id_mapping = {sku: id for sku, id in request_skus.values_list('sku', 'id')}
-            print(sku_to_id_mapping)
             result = request_json_stocks(
                 oauth=oauth,
                 campaign_id=campaign_id,
@@ -161,14 +158,14 @@ class GetStocksFBYViewSet(viewsets.ModelViewSet):
 
                     stocks_to_create.append(stock_data)
 
-                for stock_data in stocks_to_create:
+                for stocks_data in stocks_to_create:
                     StocksFBY.objects.update_or_create(
-                        user=stock_data['user'],
-                        good_id=stock_data['good_id'],
-                        defaults=stock_data
+                        user=stocks_data['user'],
+                        good_id=stocks_data['good_id'],
+                        defaults=stocks_data
                     )
 
-                return Response({'result': result})
+            return Response({'result': result})
         except UserYaKeys.DoesNotExist:
             return Response({'error': 'UserYaKeys not found'})
         except Exception as e:
