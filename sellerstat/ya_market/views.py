@@ -1,4 +1,6 @@
 import traceback
+
+from django.db.models import Prefetch
 from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
@@ -66,8 +68,12 @@ class GetPricesFBYViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         user = self.request.user
         if self.request.user.is_staff:
-            return PricesFBY.objects.all()
-        return PricesFBY.objects.filter(user=user)
+            return PricesFBY.objects.all().prefetch_related(
+                Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
+            )
+        return PricesFBY.objects.filter(user=user).prefetch_related(
+            Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
+        )
 
     def create(self, request, *args, **kwargs):
         user_id = request.user.id
@@ -120,8 +126,12 @@ class GetStocksFBYViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         user = self.request.user
         if self.request.user.is_staff:
-            return StocksFBY.objects.all()
-        return StocksFBY.objects.filter(user=user)
+            return StocksFBY.objects.all().prefetch_related(
+                Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
+            )
+        return StocksFBY.objects.filter(user=user).prefetch_related(
+                Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
+            )
 
     def create(self, request, *args, **kwargs):
         user_id = request.user.id
