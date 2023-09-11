@@ -1,3 +1,4 @@
+from bulk_update_or_create import BulkUpdateOrCreateQuerySet
 from django.contrib.auth import get_user_model
 from django.db import models
 
@@ -47,7 +48,7 @@ class Goods(models.Model):
         ]
 
     def __str__(self):
-        return f'SKU - {self.sku} - {self.title} пользователя {self.user}'
+        return f'{self.sku} - {self.title}'
 
 
 class PricesFBY(models.Model):
@@ -163,6 +164,23 @@ class StocksFBY(models.Model):
         return f'SKU - {self.good_id}, Остаток - {self.all_good_stocks}.'
 
 
+class CurrencyList(models.Model):
+    '''Модель списка курсов для себестоимости'''
+    code = models.CharField(
+        max_length=3,
+        verbose_name='Валюта'
+    )
+    class Meta:
+        verbose_name = 'Валюта'
+        verbose_name_plural = 'Валюты'
+        constraints = [
+            models.UniqueConstraint(fields=['code'], name='unique code currency_list')
+        ]
+
+    def __str__(self):
+        return f'{self.code}'
+
+
 class Currency(models.Model):
     '''Модель курсов валют к рублю'''
     code = models.CharField(
@@ -203,7 +221,7 @@ class UserCostPrice(models.Model):
         help_text='Себестоимость 1 шт (без доставки)'
     )
     buy_currency = models.ForeignKey(
-        Currency,
+        CurrencyList,
         on_delete=models.CASCADE,
         blank=True,
         null=True,
@@ -212,6 +230,8 @@ class UserCostPrice(models.Model):
     )
     buy_currency_rate = models.FloatField(
         max_length=5,
+        blank=True,
+        null=True,
         verbose_name='Курс покупки',
         help_text='Курс по которому купили'
     )
@@ -223,7 +243,7 @@ class UserCostPrice(models.Model):
         help_text='Стоимость доставки 1 шт'
     )
     delivery_currency = models.ForeignKey(
-        Currency,
+        CurrencyList,
         on_delete=models.CASCADE,
         blank=True,
         null=True,
@@ -232,6 +252,8 @@ class UserCostPrice(models.Model):
     )
     delivery_currency_rate = models.FloatField(
         max_length=5,
+        blank=True,
+        null=True,
         verbose_name='Курс доставки',
         help_text='Курс по которому доставили'
     )
@@ -249,3 +271,83 @@ class UserCostPrice(models.Model):
 
     def __str__(self):
         return f'Себестоимость товара {self.good_id}'
+
+
+class UserDeliveredOrders(models.Model):
+    """Модель доставленных заказов продавца (юзера)"""
+    objects = BulkUpdateOrCreateQuerySet.as_manager()
+
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        verbose_name='Продажи Пользователя',
+        related_name='delivered_orders'
+    )
+    good_id = models.ForeignKey(
+        Goods,
+        on_delete=models.CASCADE,
+        verbose_name='Продажа товара',
+        related_name='delivered_good'
+    )
+    order_id = models.CharField(
+        max_length=10,
+        verbose_name='Номер заказа',
+    )
+    creation_date = models.DateField(
+        verbose_name='Дата заказа'
+    )
+    delivered_date = models.DateTimeField(
+        verbose_name='Дата доставки'
+    )
+    good_sku = models.CharField(
+        max_length=20,
+        verbose_name='SKU товара'
+    )
+    items_count = models.IntegerField(
+        verbose_name='Количество'
+    )
+    delivery_region = models.CharField(
+        max_length=50,
+        verbose_name='Регион доставки',
+        default='Нет указан'
+    )
+    warehouse_name = models.CharField(
+        max_length=30,
+        verbose_name='Склад',
+        default='Нет указан'
+    )
+    bid_fee = models.FloatField(
+        verbose_name='Процент Буста',
+        null=True,
+        default=0
+    )
+    payment_total = models.FloatField(
+        verbose_name='Сумма заказа'
+    )
+    commission_delivery = models.FloatField(
+        verbose_name='Доставка',
+        help_text='Стоимость доставки',
+        default=0
+    )
+    commission_fee = models.FloatField(
+        verbose_name='Комисся',
+        help_text='Все комиссии кроме доставки и рекламы',
+        default=0
+    )
+    auction_total = models.FloatField(
+        verbose_name='Буст',
+        help_text='Стоимость буста продаж',
+        default=0,
+        null=True
+    )
+
+    class Meta:
+        verbose_name = 'Список заказов'
+        verbose_name_plural = 'Списки заказов'
+        constraints = [
+            models.UniqueConstraint(fields=['order_id'], name='unique order_id')
+        ]
+        ordering = ['-creation_date']
+
+    def __str__(self):
+        return f'{self.order_id} от {self.creation_date}.'

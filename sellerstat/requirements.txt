@@ -20,3 +20,4 @@ celery
 redis
 django-celery-beat
 django-celery-results
+django-bulk-update-or-create

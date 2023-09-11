@@ -88,8 +88,3 @@ def request_json_stocks(oauth, campaign_id, skus):
         return load_stocks(json_response=result, skus=skus)
     else:
         print(response.status_code, response.text)
-
-oauth = 'y0_AgAAAABj2d1NAAowIQAAAADn1jWaqJR95xZAQJWVU163GwYwcJVT_N0'
-campid = '58157088'
-skus = ["ZH-003", "TL-002"]
-print(request_json_stocks(oauth, campid, skus))
