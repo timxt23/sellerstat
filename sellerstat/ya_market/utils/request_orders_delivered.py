@@ -45,7 +45,7 @@ def parse_commission_fee_all(all_fee):
         'LOYALTY_PARTICIPATION_FEE'
     ]
     return round(sum(fee['actual'] for fee in all_fee if fee['type'] not in ('DELIVERY_TO_CUSTOMER',
-                                                                       'AUCTION_PROMOTION')), 2)
+                                                                             'AUCTION_PROMOTION')), 2)
 
 
 def parse_commission_delivery(delivery_fees):

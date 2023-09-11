@@ -131,8 +131,8 @@ class GetStocksFBYViewSet(viewsets.ModelViewSet):
                 Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
             )
         return StocksFBY.objects.filter(user=user).prefetch_related(
-                Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
-            )
+            Prefetch('good_id', queryset=Goods.objects.only('sku', 'title'))
+        )
 
     def create(self, request, *args, **kwargs):
         user_id = request.user.id

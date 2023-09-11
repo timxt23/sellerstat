@@ -13,7 +13,6 @@ router.register('get_stocks', GetStocksFBYViewSet, basename='get_stocks')
 router.register('costs', UserCostsViewSet, basename='costs')
 router.register('get_delivered', UserDeliveredOrdersViewSet, basename='get_delivered')
 
-
 urlpatterns = [
     path('', include(router.urls)),
 ]

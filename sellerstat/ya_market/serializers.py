@@ -69,6 +69,7 @@ class UserDeliveredOrdersSerializer(serializers.ModelSerializer):
             'commission_fee',
             'auction_total',
         )
+
     def get_good_title(self, obj):
         return obj.good_id.sku if obj.good_id else None
 
@@ -111,7 +112,7 @@ class FBYStocksSerializer(serializers.ModelSerializer):
     def get_good_sku(self, obj):
         return obj.good_id.sku if obj.good_id else None
 
-    def get_good_title(self, obj):
+    def get_good_title(obj):
         return obj.good_id.title if obj.good_id else None
 
 

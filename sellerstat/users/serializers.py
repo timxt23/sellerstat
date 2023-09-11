@@ -49,11 +49,12 @@ class CustomUserSerializer(UserSerializer):
 
 class UserYaKeysSerializer(serializers.ModelSerializer):
     """Сериазатор обработки АПИ ключей юзера"""
-    user = serializers.HiddenField(default=serializers.CurrentUserDefault()) # Скрываем поле и назначаем тек. юзера
+    user = serializers.HiddenField(default=serializers.CurrentUserDefault())  # Скрываем поле и назначаем тек. юзера
     FBY_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
     FBS_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
     DBS_campaign_id = serializers.CharField(max_length=8, min_length=8, required=False)
     business_id = serializers.CharField(max_length=8, min_length=8, required=False)
+
     class Meta:
         model = UserYaKeys
         fields = '__all__'
@@ -96,7 +97,7 @@ class SubscriptedUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = SubscriptedUser
         fields = ('id', 'subscription_plan', 'user', 'start_date', 'expire_date')
-    
+
     def get_expire_date(self, obj):
         start_date = obj.start_date
         expire_date = start_date + timedelta(days=30)

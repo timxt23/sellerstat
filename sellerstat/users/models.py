@@ -3,6 +3,7 @@ from django.db import models
 
 User = get_user_model()
 
+
 class Subscription(models.Model):
     """Модель плана платной подписки пользователя"""
     title = models.CharField(
@@ -53,7 +54,6 @@ class SubscriptedUser(models.Model):
         verbose_name = 'План подписки пользователя'
         verbose_name_plural = 'Планы подписки пользователей'
         ordering = ['-start_date']
-
 
     def __str__(self) -> str:
         return (f'Подписка - {self.subscription_plan} пользователя {self.user} '

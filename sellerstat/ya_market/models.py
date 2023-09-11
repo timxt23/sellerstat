@@ -165,11 +165,12 @@ class StocksFBY(models.Model):
 
 
 class CurrencyList(models.Model):
-    '''Модель списка курсов для себестоимости'''
+    """Модель списка курсов для себестоимости"""
     code = models.CharField(
         max_length=3,
         verbose_name='Валюта'
     )
+
     class Meta:
         verbose_name = 'Валюта'
         verbose_name_plural = 'Валюты'
@@ -182,7 +183,7 @@ class CurrencyList(models.Model):
 
 
 class Currency(models.Model):
-    '''Модель курсов валют к рублю'''
+    """Модель курсов валют к рублю"""
     code = models.CharField(
         max_length=3,
         verbose_name='Валюта'
